@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YSL圣罗兰美妆官方网站暨网上商城 - 着我装者, 着我妆</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script>
+    /*****右侧返回顶部*****/
+      $(function () {
+        $(window).scroll(function () {
+          // 1.获取网页滚动的偏移位
+          var offset = $("html,body").scrollTop();
+          // 2.判断网页是否滚动到了指定的位置
+          if (offset >= 600) {
+            $(".back-box").slideDown(300)
+          } else {
+            $(".back-box").slideUp(300)
+          }
+        })
+      })
+  </script>
+</head>
+<body>
+<div>
+    <!--1.顶部广告语-->
+  <div class="top-slogan">
+    <p>
+      <a href="#">YSL墨水气垫，哑亮通透，持久无瑕，邂逅秋冬亮泽美肌，点击解锁你的哑亮妆容.</a>
+    </p>
+  </div>
+  <!--1.头部-->
+  <header class="header">
+    <!--1.1客服、登录注册、logo...-->
+    <div class="header_container">
+      <ul class="header_container_ul">
+        <li class="zgcx">
+          <a href="#">
+            <i class="icon icon_zgcx"></i>
+            <span>专柜查询</span>
+          </a>
+        </li>
+        <li class="kfzx">
+          <a href="#">
+            <span>客服中心</span>
+          </a>
+        </li>
+        <li class="shopping_bag">
+          <a href="#">
+            <i class="icon icon_shopping_bag"></i>
+            <span>购物袋-0件商品</span>
+            <i class="icon icon_down_arrow"></i>
+          </a>
+        </li>
+        <li class="login_reg">
+          <a href="#">
+            <span>登录与注册</span>
+          </a>
+        </li>
+        <li class="magazine">
+          <a href="#">
+            <span>订阅电子杂志</span>
+          </a>
+        </li>
+      </ul>
+      <!--1.2 Logo-->
+      <a href="#"><img src="images/logo.png" class="logo" alt="" title="YSL圣罗兰美妆官方网站暨网上商城"></a>
+    </div>
+    <!--1.3导航栏-->
+    <div class="nav_container">
+      <div class="nav_container2">
+        <ul>
+          <li><a href="#">彩妆</a></li>
+          <li><a href="#">护肤</a></li>
+          <li><a href="#">香水</a></li>
+          <li><a href="#">明星产品</a></li>
+          <li><a href="#">尊享礼盒</a></li>
+          <li><a href="#">会员中心</a></li>
+          <li><a href="#">私人订制服务</a></li>
+        </ul>
+        <div class="search_lens">
+          <input type="text" class="search" value="YSL气垫">
+          <a href="#" class="lens"><i class="icon icon_lens"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--2.主体-->
+  <div>
+    <!--轮播图-->
+    <div class="div_lbt">
+    <div class="lbt-out">
+      <ul class="lbt">
+        <!--<li><a href="#"><img src="images/banner4.jpg" alt=""></a></li>-->
+        <li><a href="#"><img src="images/banner1.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/banner2.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/banner3.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/banner4.jpg" alt=""></a></li>
+        <!--<li><a href="#"><img src="images/banner1.jpg" alt=""></a></li>-->
+      </ul>
+    </div>
+    <ol class="ol">
+      <li class="current"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+    <i class="icon arrow_left"></i>
+    <i class="icon arrow_right"></i>
+  </div>
+    <!--明星产品favorites-->
+    <div class="favorites">
+      <div class="favorites_title">
+        <p>YSL FAVORITES</p>
+        <p>明星产品</p>
+      </div>
+      <div class="favorites_content">
+        <div class="favorites_nav">
+          <ul>
+            <li class="fav_nav_active"><span>彩妆</span></li>
+            <li><span>香水</span></li>
+            <li><span>护肤</span></li>
+            <li><span>尊享礼盒</span></li>
+          </ul>
+        </div>
+        <div class="favorites_product">
+          <div class="product_cz">
+            <div class="swiper_img">
+              <a href=""><img src="images/cz.jpg" alt=""></a>
+            </div>
+            <div class="swiper_container">
+              <div class="swiper_wrapper">
+                <div class="thumbnail">
+                  <div>
+                    <img src="images/product/product3.jpg" alt="">
+                    <div class="details_box">
+                      <div class="details_color">
+                        <span class="details_span" style="background-color: #b91a2e"></span>
+                        <span class="details_span" style="background-color: #b41e44"></span>
+                        <span class="details_span" style="background-color: #e01d5f"></span>
+                        <span class="details_span" style="background-color: #aa4e51"></span>
+                        <span class="details_span" style="background-color: #fc637f"></span>
+                      </div>
+                      <h3 class="product_name_en"><a>ROUGE PUR COUTURE</a></h3>
+                      <p class="product_name_cn"><a>圣罗兰纯口红</a></p>
+                      <p class="product_intr"><a>纯正色彩，耀眼光泽，滋润质地</a></p>
+                      <span class="star_5"><i class="icon"></i></span>
+                      <span class="product_price"><span>¥320</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thumbnail">
+                  <div>
+                    <img src="images/product/product2.jpg" alt="">
+                    <div  class="details_box">
+                    <div class="details_color">
+                      <span class="details_span" style="background-color: #b91a2e"></span>
+                      <span class="details_span" style="background-color: #b41e44"></span>
+                      <span class="details_span" style="background-color: #e01d5f"></span>
+                      <span class="details_span" style="background-color: #aa4e51"></span>
+                      <span class="details_span" style="background-color: #fc637f"></span>
+                    </div>
+                    <h3  class="product_name_en"><a>VERNIS A LEVRES VINYL CREAM</a></h3>
+                    <p class="product_name_cn"><a>圣罗兰黑管唇釉</a></p>
+                    <p class="product_intr"><a>胶质般闪耀，乳霜般舒适</a></p>
+                    <span class="star_5"><i class="icon"></i></span>
+                    <span class="product_price"><span>¥320</span></span>
+                  </div>
+                  </div>
+                </div>
+                <div class="thumbnail">
+                  <div>
+                    <img src="images/product/product1.jpg" alt="">
+                    <div  class="details_box">
+                      <div class="details_color">
+                        <span class="details_span" style="background-color: #b91a2e"></span>
+                        <span class="details_span" style="background-color: #b41e44"></span>
+                        <span class="details_span" style="background-color: #e01d5f"></span>
+                        <span class="details_span" style="background-color: #aa4e51"></span>
+                        <span class="details_span" style="background-color: #fc637f"></span>
+                      </div>
+                      <h3 class="product_name_en"><a>ROUGE VOLUPTÉ SHINE</a></h3>
+                      <p class="product_name_cn"><a>圣罗兰莹亮纯魅唇膏</a></p>
+                      <p class="product_intr"><a>富含美唇精粹，水光般莹亮色彩</a></p>
+                      <span class="star_5"><i class="icon"></i></span>
+                      <span class="product_price"><span>¥320</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper_button_prev"></div>
+            <div class="swiper_button_next"></div>
+          </div>
+          <div class="product_xs" style="display: none">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="product_hf" style="display: none">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="product_zxlh" style="display: none">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--搜索发现beauty-->
+    <div class="beauty">
+      <div class="beauty_header">
+        <p class="header_title_en">YSL BEAUTY</p>
+        <p class="header_title_cn">搜索发现</p>
+      </div>
+      <div class="beauty_body">
+          <div class="beauty_body_box">
+            <div class="beauty_img_box">
+              <a href=""><img src="images/show1.jpg" alt=""></a>
+            </div>
+            <div class="beauty_text_box">
+              <p class="beauty_title"><a href="">黑金限量礼盒</a></p>
+              <p class="beauty_details">YSL女性以黑色为独特标识，于黑夜纵情闪耀，释放无限诱惑。</p>
+              <p class="beauty_more"><a href="">了解详情</a></p>
+            </div>
+          </div>
+          <div class="beauty_body_box">
+            <div class="beauty_img_box"><a href=""><img src="images/show2.jpg" alt=""></a></div>
+            <div class="beauty_text_box">
+              <p class="beauty_title"><a href="">彩妆</a></p>
+              <p class="beauty_details">红色是一种宣言，是存在的证明，是女性气质充满张力的演绎。</p>
+              <p class="beauty_more"><a href="">了解详情</a></p>
+            </div>
+          </div>
+          <div class="beauty_body_box">
+            <div class="beauty_img_box"><a href=""><img src="images/show3.jpg" alt=""></a></div>
+            <div class="beauty_text_box">
+              <p class="beauty_title"><a href="">香水</a></p>
+              <p class="beauty_details">爱，是抛却一切的沉迷，甜蜜气息一旦触碰，便陷入天旋地转的张狂与爱恋。</p>
+              <p class="beauty_more"><a href="">了解详情</a></p>
+            </div>
+          </div>
+          <div class="beauty_body_box">
+            <div class="beauty_img_box"><a href=""><img src="images/show4.jpg" alt=""></a></div>
+            <div class="beauty_text_box">
+              <p class="beauty_title"><a href="">护肤</a></p>
+              <p class="beauty_details">超模绝密系列，YSL的后台秘密，即刻水润，瞬时平滑。</p>
+              <p class="beauty_more"><a href="">了解详情</a></p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!--img-->
+    <div class="big_img">
+      <a href="">
+        <img src="images/BigPic.jpg" alt="">
+      </a>
+    </div>
+    <!--寻找你的彩妆灵感-->
+    <div class="find">
+      <div class="find_header">
+        <p class="find_title_en">FIND INSPIRATION</p>
+        <p class="find_title_cn">寻 找 你 的 彩 妆 灵 感</p>
+      </div>
+      <div class="find_body">
+
+        <div class="find_body_box">
+          <div class="find_img_box">
+            <a href=""><img src="images/find1.jpg" alt=""></a>
+          </div>
+          <div class="find_text_box">
+            <p class="find_title"><a href="">Fiery Kiss 纵情激吻</a></p>
+            <p class="find_details">唇上那来不及掩饰的激吻痕迹 是猝不及防的心动 是欲盖弥彰的大胆 亦是浅尝辄止的撩人 YSL激吻唇色 秋冬限量发布</p>
+            <p class="find_more"><a href="">阅读全文</a></p>
+          </div>
+        </div>
+        <div class="find_body_box">
+          <div class="find_img_box">
+            <a href=""><img src="images/find2.jpg" alt=""></a>
+          </div>
+          <div class="find_text_box">
+            <p class="find_title"><a href="">以大胆唇色点亮妆容</a></p>
+            <p class="find_details">在YSL的色彩世界中，正红色优雅端庄，玫瑰色温柔知性，每种颜色都对着着不同的个性符号。今夏，YSL邀你一起打破常规，在唇妆中融入多重色彩，自由展现。 </p>
+            <p class="find_more"><a href="">阅读全文</a></p>
+          </div>
+        </div>
+        <div class="find_body_box">
+          <div class="find_img_box">
+            <a href=""><img src="images/find3.jpg" alt=""></a>
+          </div>
+          <div class="find_text_box">
+            <p class="find_title"><a href="">为双唇赋予更多魅力</a></p>
+            <p class="find_details">玩趣大胆，放肆激情，是Imagine Dragons的另类摇滚，也深深根植于YSL的DNA。他们为现代电子乐带来了彻底性的颠覆，这一点正如有双重功效的YSL夹心唇膏，打破常规，释放真我。</p>
+            <p class="find_more"><a href="">阅读全文</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--视频中心-->
+    <!--<div style="background-color: red;height: 656px"></div>-->
+  </div>
+
+  <!--底部-->
+  <footer class="footer">
+    <!--1.黑色部分-->
+    <div class="footer_promise">
+      <ul>
+        <li>
+          <label><i class="icon icon_official"></i></label>
+          <span>100%官方正品保证</span>
+        </li>
+        <li>
+          <label><i class="icon icon_payment"></i></label>
+          <span>支持多种支付方式</span>
+        </li>
+        <li>
+          <label><i class="icon icon_gift_box"></i></label>
+          <span>专享官网特惠礼遇</span>
+        </li>
+        <li>
+          <label><i class="icon icon_contact_us"></i></label>
+          <span>联系我们
+            电话400-820-6362
+          </span>
+        </li>
+      </ul>
+    </div>
+    <!--2.分类部分-->
+    <div class="footer_classify">
+      <!--彩妆-->
+      <div>
+        <ul>
+          <li><a href="#">彩妆</a></li>
+          <li><a href="#">唇部</a></li>
+          <li><a href="#">面部</a></li>
+          <li><a href="#">眼部</a></li>
+          <li><a href="#">甲油</a></li>
+          <li><a href="#">套装及工具</a></li>
+        </ul>
+      </div>
+      <!--护肤-->
+      <div>
+        <ul>
+          <li><a href="#">护肤</a></li>
+          <li><a href="#">按产品分类</a></li>
+          <li><a href="#">按功能分类</a></li>
+          <li><a href="#">按系列分类</a></li>
+        </ul>
+      </div>
+      <!--香水-->
+      <div>
+        <ul>
+          <li><a href="#">香水</a></li>
+          <li><a href="#">女士香水</a></li>
+          <li><a href="#">男士香水</a></li>
+        </ul>
+      </div>
+      <!--尊享礼盒-->
+      <div>
+        <ul>
+          <li><a href="#">尊享礼盒</a></li>
+        </ul>
+      </div>
+      <!--订阅和联系-->
+      <div class="classify_cont">
+        <p>订阅电子杂志</p>
+        <div>
+          <input class="footer_search" type="text">
+          <a class="footer_ok">OK</a>
+        </div>
+        <div class="footer_icon">
+          <p>关注我们</p>
+          <ul>
+            <li><i class="icon weiBo"></i></li>
+            <li><i class="icon weChat"></i></li>
+          </ul>
+        </div>
+        <div>
+          <p>联系我们</p>
+          <p>电话：400-820-6362</p>
+        </div>
+      </div>
+    </div>
+    <!--3.logo大图-->
+    <h1 class="foot_logo"><img src="images/logo.png" alt=""></h1>
+    <!--4.底部备案-->
+    <div class="footer_bottom">
+      <div class="f_bottom_ul1">
+        <div>
+          <span>&copy;&nbsp;欧莱雅（中国）有限公司</span>
+        </div>
+        <div>
+          <i class="icon zggs"></i>
+          <a href="#"><span>中国工商</span></a>
+          <a href="#"><span>沪ICP备08100043号-28</span></a>
+        </div>
+        <div>
+          <i class="icon hgwab"></i>
+          <a href="#"><span>沪公网安备&nbsp;31010602001529号</span></a>
+        </div>
+      </div>
+      <div class="f_bottom_ul2">
+        <div><a href="#">Cookies政策</a></div>
+        <div><a href="#">使用条款</a></div>
+        <div><a href="#">隐私政策</a></div>
+        <div><a href="#">网站地图</a></div>
+      </div>
+    </div>
+  </footer>
+  <!--返回顶部-->
+  <div class="back-box">
+    <div class="online-server">
+      <a href="">
+        <i class="icon icon_online"></i>
+        <span>在线咨询</span>
+      </a>
+    </div>
+    <div class="back-top">
+      <a href="#">
+        <i class="icon icon_backtop"></i>
+        <span>TOP</span>
+      </a>
+    </div>
+  </div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
